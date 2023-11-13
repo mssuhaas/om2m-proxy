@@ -4,4 +4,4 @@ WORKDIR /
 COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 9898
-CMD [ "python3", "./app.py" ]
+CMD [ "python3", "./main.py" ]
